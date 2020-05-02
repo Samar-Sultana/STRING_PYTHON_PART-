@@ -1,0 +1,21 @@
+string = "Let's fill 0s using zfill() to move the string to 40 length"
+print(len(string))
+print(string.zfill(60))
+
+string = {"I am in or not in", "sdjsgh"}
+check = input() in string
+print(check)
+
+str1 = "samar"
+str2 = "sultana"
+c = str1 + " " + str2
+print(c)
+
+a = input("Enter your Name: ")
+b = input("Ente your age: ")
+b2 = input("Enter last three digits of your Roll. No.: ")
+c = "Welcome, " + a +"! We presume your age is {}"
+d = "You are bearing Roll. No. of {}"
+print(c.format(b) + " " + d.format(b2))
+
+print("Samar said \"I was not able to speak in english properly because I did not practice it enough for a long time.\"")
